@@ -57,6 +57,17 @@ Header Title and Banner End
 /*---------------------
 Top Players Style Start
 ----------------------*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
 
 .player{
     display: flex;
@@ -68,3 +79,7 @@ Top Players Style Start
     border-radius: 5px;
     padding: 15px;
 }
+
+/*---------------------
+Top Players Style End
+----------------------*/
