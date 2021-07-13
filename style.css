@@ -1,3 +1,13 @@
-h1{
-    color: red;
+/*------------------
+Google Fonts Add
+------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/*--------
+Common CSS
+---------*/
+body{
+    font-family: 'Poppins', sans-serif;
 }
