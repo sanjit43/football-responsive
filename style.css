@@ -83,3 +83,48 @@ section{
 /*---------------------
 Top Players Style End
 ----------------------*/
+
+
+/*--------------------
+Footer Section Start
+--------------------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-logo img{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.font-icon{
+    display: flex;
+    justify-content: center;
+    align-items;
+    margin-top: 30px;
+}
+.shadow{
+    margin: 10px;
+}
+
+.copy-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------
+Footer Section End
+--------------------*/
