@@ -66,7 +66,8 @@ section{
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-row-gap: 40px;
+    
 }
 
 .player{
@@ -232,17 +233,19 @@ Footer Section End
     .players{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+
     }
     .latest-news{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
 @media only screen and (min-width: 1024px){
     header{
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
     .players{
         display: grid;
