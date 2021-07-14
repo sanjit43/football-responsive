@@ -204,3 +204,42 @@ footer{
 /*--------------------
 Footer Section End
 --------------------*/
+
+/*--------------------
+@media Query Stylesheet
+---------------------*/
+
+@media only screen and (max-width: 767px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .latest-news{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/*--------------------
+@media Query Stylesheet
+---------------------*/
