@@ -85,10 +85,45 @@ Top Players Style End
 ----------------------*/
 
 
+/*-------------------------
+Player Transfer Table Start
+--------------------------*/
+.transfer-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgreen;
+    width: 100%
+}
+
+thead{
+    background-color: violet;
+    color: white;
+}
+
+th, td{
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.player-name{
+    font-weight: 700;
+}
+
+/*-------------------------
+Player Transfer Table End
+--------------------------*/
+
+
+
+
+
+
 /*--------------------
 Footer Section Start
 --------------------*/
-
 footer{
     display: flex;
     flex-direction: column;
@@ -96,6 +131,7 @@ footer{
     align-items: center;
     margin-top: 73px;
 }
+
 .footer-logo{
     display: flex;
     justify-content: center;
@@ -112,9 +148,10 @@ footer{
 .font-icon{
     display: flex;
     justify-content: center;
-    align-items;
+    align-items: center;
     margin-top: 30px;
 }
+
 .shadow{
     margin: 10px;
 }
