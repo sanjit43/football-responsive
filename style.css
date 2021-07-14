@@ -116,8 +116,47 @@ th, td{
 Player Transfer Table End
 --------------------------*/
 
+h2{
+    margin-top: 40px;
+    margin-left: 30px;
 
+}
 
+/*---------------------
+Latest News Style Start
+---------------------*/
+.latest-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 330px;
+    height: 400px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.news-box p{
+    color: yellowgreen;
+}
+.news-box a{
+    text-decoration: none;
+    font-size: 18px;
+    color: orange;
+}
+
+.news-box:hover{
+    transform: translate(5px, 5px);
+}
+
+/*---------------------
+Latest News Style End
+---------------------*/
 
 
 
